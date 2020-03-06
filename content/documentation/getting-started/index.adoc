@@ -121,7 +121,7 @@ When the Kiali CR is created it triggers the operator to then install Kiali. Run
 
 [source,bash]
 ----
-  bash <(curl -L https://git.io/getLatestKialiOperator) --accessible-namespaces '**'
+  bash <(curl -L https://git.io/getLatestKialiOperator) --accessible-namespaces '**' -oiv latest -kiv latest
 ----
 
 
